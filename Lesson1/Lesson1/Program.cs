@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson1 // ЕРОХИН АЛЕКСАНДР АНДРЕЕВИЧ
+namespace Lesson1 // ЕРОХИН АЛЕКСАНДР АНДРЕЕВИЧ. Факультет Разработки VR&AR
+
 {
     class Program
     {
