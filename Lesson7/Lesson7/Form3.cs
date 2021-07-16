@@ -12,14 +12,23 @@ namespace Lesson7
 {
     public partial class Form3 : Form
     {
+
         public Form3()
         {
             InitializeComponent();
+            
         }
 
-        private void btnNum_Click(object sender, EventArgs e)
+       
+        private void btnTry_Click(object sender, EventArgs e)
         {
-            Form3.ActiveForm.Visible = false;
+            
+            int num;
+            num = int.Parse(boxNum.Text);
+
+            if (num > Form1.gn) MessageBox.Show("Ваше число больше загаданного");
+            else if (num < Form1.gn) MessageBox.Show("Ваше число меньше загаданного");
+            else MessageBox.Show("Поздравляю! Вы угадали");
         }
     }
 }

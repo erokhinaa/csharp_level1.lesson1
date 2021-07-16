@@ -10,24 +10,21 @@ using System.Windows.Forms;
 
 namespace Lesson7
 {
+   
     public partial class Form2 : Form
     {
+        
         public Form2()
         {
             InitializeComponent();
         }
 
-        private void btnNum_Click(object sender, EventArgs e)
+        private void btnStart_Click(object sender, EventArgs e)
         {
-            int num;
-            int r;
-            Random rnd = new Random();
-            r = rnd.Next(1,100);
-            num = int.Parse(boxNum.Text);
+            Form3 F3 = new Form3();
+            F3.Visible = true;
 
-            if (num > r) MessageBox.Show("Ваше число больше загаданного");
-            else if (num < r) MessageBox.Show("Ваше число меньше загаданного");
-            else MessageBox.Show("Поздравляю! Вы угадали");
         }
     }
+
 }

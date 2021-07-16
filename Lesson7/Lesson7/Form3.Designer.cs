@@ -29,46 +29,45 @@ namespace Lesson7
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblNum = new System.Windows.Forms.Label();
+            this.boxNum = new System.Windows.Forms.TextBox();
             this.btnNum = new System.Windows.Forms.Button();
+            this.lblNum = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // boxNum
             // 
-            this.textBox1.Location = new System.Drawing.Point(51, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.boxNum.Location = new System.Drawing.Point(79, 60);
+            this.boxNum.Name = "boxNum";
+            this.boxNum.Size = new System.Drawing.Size(100, 20);
+            this.boxNum.TabIndex = 0;
+            // 
+            // btnNum
+            // 
+            this.btnNum.Location = new System.Drawing.Point(79, 96);
+            this.btnNum.Name = "btnNum";
+            this.btnNum.Size = new System.Drawing.Size(100, 32);
+            this.btnNum.TabIndex = 1;
+            this.btnNum.Text = "Ввести";
+            this.btnNum.UseVisualStyleBackColor = true;
+            this.btnNum.Click += new System.EventHandler(this.btnTry_Click);
             // 
             // lblNum
             // 
             this.lblNum.AutoSize = true;
-            this.lblNum.Location = new System.Drawing.Point(48, 18);
+            this.lblNum.Location = new System.Drawing.Point(60, 44);
             this.lblNum.Name = "lblNum";
-            this.lblNum.Size = new System.Drawing.Size(84, 13);
-            this.lblNum.TabIndex = 1;
-            this.lblNum.Text = "Введите число:";
-            // 
-            // btnNum
-            // 
-            this.btnNum.Location = new System.Drawing.Point(51, 60);
-            this.btnNum.Name = "btnNum";
-            this.btnNum.Size = new System.Drawing.Size(100, 23);
-            this.btnNum.TabIndex = 2;
-            this.btnNum.Text = "Ввести";
-            this.btnNum.UseVisualStyleBackColor = true;
-            this.btnNum.Click += new System.EventHandler(this.btnNum_Click);
+            this.lblNum.Size = new System.Drawing.Size(143, 13);
+            this.lblNum.TabIndex = 2;
+            this.lblNum.Text = "Введите число от 1 до 100:";
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(197, 106);
-            this.Controls.Add(this.btnNum);
+            this.ClientSize = new System.Drawing.Size(248, 180);
             this.Controls.Add(this.lblNum);
-            this.Controls.Add(this.textBox1);
-            this.Enabled = false;
+            this.Controls.Add(this.btnNum);
+            this.Controls.Add(this.boxNum);
             this.MaximizeBox = false;
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -80,8 +79,8 @@ namespace Lesson7
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lblNum;
+        private System.Windows.Forms.TextBox boxNum;
         private System.Windows.Forms.Button btnNum;
+        private System.Windows.Forms.Label lblNum;
     }
 }

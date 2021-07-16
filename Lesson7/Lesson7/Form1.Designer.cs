@@ -37,11 +37,11 @@ namespace Lesson7
             this.играToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.новаяИграToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сброситьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblcountComm = new System.Windows.Forms.Label();
             this.lblSteps = new System.Windows.Forms.Label();
             this.lblFinish = new System.Windows.Forms.Label();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +53,7 @@ namespace Lesson7
             this.lblNumber.Name = "lblNumber";
             this.lblNumber.Size = new System.Drawing.Size(41, 44);
             this.lblNumber.TabIndex = 0;
-            this.lblNumber.Text = "2";
+            this.lblNumber.Text = "1";
             // 
             // btnCommand1
             // 
@@ -109,21 +109,26 @@ namespace Lesson7
             // новаяИграToolStripMenuItem
             // 
             this.новаяИграToolStripMenuItem.Name = "новаяИграToolStripMenuItem";
-            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.новаяИграToolStripMenuItem.Text = "Новая игра";
             this.новаяИграToolStripMenuItem.Click += new System.EventHandler(this.новаяИграToolStripMenuItem_Click);
             // 
             // сброситьToolStripMenuItem
             // 
             this.сброситьToolStripMenuItem.Name = "сброситьToolStripMenuItem";
-            this.сброситьToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.сброситьToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.сброситьToolStripMenuItem.Text = "Сбросить";
             this.сброситьToolStripMenuItem.Click += new System.EventHandler(this.сброситьToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(133, 6);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -154,11 +159,6 @@ namespace Lesson7
             this.lblFinish.Size = new System.Drawing.Size(41, 44);
             this.lblFinish.TabIndex = 7;
             this.lblFinish.Text = "0";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // Form1
             // 

@@ -93,6 +93,8 @@ namespace Lesson7
             int r = rnd.Next(1, 1000000);
             MessageBox.Show($"Вы должны набрать число {r}");
             lblFinish.Text = r.ToString();
+            lblNumber.Text = "1";
+            lblcountComm.Text = "0";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -101,6 +103,8 @@ namespace Lesson7
             int r = rnd.Next(1, 1000000);
             MessageBox.Show($"Вы должны набрать число {r}");
             lblFinish.Text = r.ToString();
+            lblNumber.Text = "1";
+            lblcountComm.Text = "0";
         }
     }
 }

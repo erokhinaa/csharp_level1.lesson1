@@ -29,58 +29,36 @@ namespace Lesson7
         /// </summary>
         private void InitializeComponent()
         {
-            this.boxNum = new System.Windows.Forms.TextBox();
-            this.btnNum = new System.Windows.Forms.Button();
-            this.lblNum = new System.Windows.Forms.Label();
+            this.btnStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // boxNum
+            // btnStart
             // 
-            this.boxNum.Location = new System.Drawing.Point(31, 39);
-            this.boxNum.Name = "boxNum";
-            this.boxNum.Size = new System.Drawing.Size(140, 20);
-            this.boxNum.TabIndex = 0;
-            // 
-            // btnNum
-            // 
-            this.btnNum.Location = new System.Drawing.Point(31, 65);
-            this.btnNum.Name = "btnNum";
-            this.btnNum.Size = new System.Drawing.Size(140, 34);
-            this.btnNum.TabIndex = 1;
-            this.btnNum.Text = "Ввести";
-            this.btnNum.UseVisualStyleBackColor = true;
-            this.btnNum.Click += new System.EventHandler(this.btnNum_Click);
-            // 
-            // lblNum
-            // 
-            this.lblNum.AutoSize = true;
-            this.lblNum.Location = new System.Drawing.Point(28, 23);
-            this.lblNum.Name = "lblNum";
-            this.lblNum.Size = new System.Drawing.Size(143, 13);
-            this.lblNum.TabIndex = 2;
-            this.lblNum.Text = "Введите число от 1 до 100:";
+            this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnStart.Location = new System.Drawing.Point(85, 39);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(120, 57);
+            this.btnStart.TabIndex = 0;
+            this.btnStart.Text = "Играть";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(202, 129);
-            this.Controls.Add(this.lblNum);
-            this.Controls.Add(this.btnNum);
-            this.Controls.Add(this.boxNum);
+            this.ClientSize = new System.Drawing.Size(278, 140);
+            this.Controls.Add(this.btnStart);
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Угадай число";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox boxNum;
-        private System.Windows.Forms.Button btnNum;
-        private System.Windows.Forms.Label lblNum;
+        private System.Windows.Forms.Button btnStart;
     }
 }
