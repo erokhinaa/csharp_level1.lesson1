@@ -1,0 +1,10 @@
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\bin\Debug\Lesson8.exe.config
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\bin\Debug\Lesson8.exe
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\bin\Debug\Lesson8.pdb
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\obj\Debug\Lesson8.csproj.AssemblyReference.cache
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\obj\Debug\Lesson8.Properties.Resources.resources
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\obj\Debug\Lesson8.csproj.GenerateResource.cache
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\obj\Debug\Lesson8.csproj.CoreCompileInputs.cache
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\obj\Debug\Lesson8.exe
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\obj\Debug\Lesson8.pdb
+D:\GeekBrains\projects\csharp_level1\Lesson8\Lesson8\obj\Debug\Lesson8.Form1.resources
